@@ -1,36 +1,81 @@
-* {
-  margin: 0;
-  padding: 0;
+*{
+  margin:0;
+  padding:0;
   box-sizing: border-box;
 }
-
-html,
-body {
+html,body{
   width: 100%;
   height: 100%;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat",sans-serif;
 }
 
-.hero {
-  position: relative;
+#slideset1 {
   width: 100%;
   height: 100vh;
-  background-image: url("C:/Users/DELL/Desktop/hsglobalsg/images/slide1.jpg");
-  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.slide {
+  width: 100%; height: 100%;
+  position: absolute; 
+/* to slide up :
+  top: 100%; left: 0;
+  animation: 12s slideUp infinite ease-in-out;
+*/
+/*to slide right*/
+  top: 0%; left: 100%;
+  animation: 15s slideRight infinite ease-in-out;
+}
+img{
+  width: 100%;
+  height: 100%;
+
+}
+@keyframes slideUp {
+  0% {top: 100%}
+  4% {top: 0%}
+  33.33% {top: 0%}
+  37.33% {top: -100%}
+  100% {top: -100%}
+  }
+@keyframes slideRight {
+  0% {left: 100%}
+  4% {left: 0%}
+  33.33% {left: 0%}
+  37.33% {left: -100%}
+  100% {left: -100%}
+  }
+
+
+.first {
+  animation-delay: 0s;
+}
+.second {
+  animation-delay: 5s;
+}
+.third {
+  animation-delay: 10s;
 }
 
-.heroH1 {
-  padding-top:20vh ;
+.sliderH1{
+  width: 100%;
+  font-size: 60px;
+  position: absolute;
+  z-index: 2;
+  top: 25vh;
   text-align: center;
   color: white;
-  font-size: 60px;
 }
 
 .navigation {
+  position: absolute;
+  top: 0;
   padding: 32px;
   color: white;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .contents{
@@ -38,29 +83,10 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 2vw;
-  cursor: pointer;
+  cursor: pointer;
 }
 
-img{
+.logo{
   width: 200px;
   height: auto;
-}
-
-.about{
-  text-align: center;
-  color: black;
-  font-size: 2vw;
-  font-family: "Montserrat", sans-serif;
-  padding-top: 5px;
-  padding-bottom: 10px;
-}
-
-.content{
-  padding: 16px 10vw;
-}
-
-.about-content{
-  padding: 10px;
-  font-size: 16px;
-  font-family: "Montserrat", sans-serif;
 }
