@@ -18,7 +18,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: blue;
+    background-color: #2196F3;
   }
   
   .contents {
@@ -42,4 +42,39 @@
   .logo {
     width: 200px;
     height: auto;
+  }
+
+  .heading{
+    text-align: center;
+    padding: 32px 0;
+  }
+
+  .products{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    gap: 32px;
+    max-width: 1500px;
+  }
+  .product{
+    width:350px;
+  }
+  .product img{
+    width: 350px;
+    height: 250px;
+    object-fit: fill;
+  }
+  .product h3{
+    padding: 16px 0;
+  }
+  .product p{
+    text-align: justify;
+  }
+  a{
+    color: blue;
+    cursor: pointer;
   }
