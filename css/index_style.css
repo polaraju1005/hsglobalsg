@@ -140,14 +140,39 @@ a {
   padding: 16px 10vh;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
+  margin-bottom: 3vh;
+}
+
+#wrap1{
+  width: 100%;
+  min-width: 80vw;
+  padding:16px 10vh;
+  text-align: center;
+  font-family: 'Montserrat',sans-serif;
+}
+
+#aboutQues{
+  left: 0;
+  font-size: 16px;
+  float: left;
+  padding-left: 32px;
 }
 
 .aboutPara {
   line-height: 24px;
   text-align: justify;
+  align-items: center;
   font-family: "Montserrat", Cambria;
   padding: 16px 5vh;
   font-size: 16px;
   color: black;
   font-style: italic;
+}
+
+.aboutImg{
+  width: 50%;
+  height:40%;
+  float: right;
+  padding: 8px 5vh;
+  align-items: center;
 }
