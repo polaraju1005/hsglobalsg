@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+  }
+
+.navigation {
+    padding: 32px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: blue;
+  }
+  
+  .contents {
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+    cursor: pointer;
+    color: white;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  #logo {
+    width: 200px;
+    height: auto;
+  }
+  .logo {
+    width: 200px;
+    height: auto;
+  }
