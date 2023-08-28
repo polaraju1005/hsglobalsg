@@ -1,80 +1,88 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html,
-  body {
-    width: 100%;
-    height: 100%;
-    font-family: "Montserrat", sans-serif;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+}
 
 .navigation {
-    padding: 32px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    background-color: #2196F3;
-  }
-  
-  .contents {
-    font-size: 1.5vw;
-    display: flex;
-    justify-content: space-between;
-    gap: 2vw;
-    cursor: pointer;
-    color: white;
-  }
+  padding: 32px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 12vh;
+  background-color: black;
+  opacity: 70%; 
+}
 
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  #logo {
-    width: 200px;
-    height: auto;
-  }
-  .logo {
-    width: 200px;
-    height: auto;
-  }
+.contents {
+  font-size: 1.5vw;
+  display: flex;
+  justify-content: space-between;
+  gap: 2vw;
+  cursor: pointer;
+  color: white;
+}
 
-  .heading{
-    text-align: center;
-    padding: 32px 0;
-  }
+a {
+  text-decoration: none;
+  color: white;
+}
 
-  .products{
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 0 10px;
-    gap: 32px;
-    max-width: 1500px;
-  }
-  .product{
-    width:350px;
-  }
-  .product img{
-    width: 350px;
-    height: 250px;
-    object-fit: fill;
-  }
-  .product h3{
-    padding: 16px 0;
-  }
-  .product p{
-    text-align: justify;
-  }
-  a{
-    color: blue;
-    cursor: pointer;
-  }
+#logo {
+  width: 200px;
+  height: auto;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+.heading {
+  text-align: center;
+  padding: 32px 0;
+}
+
+.products {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 10px;
+  gap: 32px;
+  max-width: 1500px;
+}
+
+.product {
+  width: 350px;
+}
+
+.product img {
+  width: 350px;
+  height: 250px;
+  object-fit: fill;
+}
+
+.product h3 {
+  padding: 16px 0;
+}
+
+.product p {
+  text-align: justify;
+}
+
+a {
+  color: blue;
+  cursor: pointer;
+}

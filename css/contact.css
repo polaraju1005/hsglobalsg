@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.navigation {
+    position: absolute;
+    top: 0;
+    padding: 32px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    background-color:black;
+    opacity: 70%;
+  }
+  
+  .contents {
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+    opacity: unset;
+    cursor: pointer;
+    color: white;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  #logo {
+    width: 200px;
+    height: auto;
+  }
+
+  .logo{
+    width: 200%;
+    height: auto;
+  }
+
+  .header{
+    width: 100%;
+    height: 100vh;
+    object-fit: fill;
+    overflow: hidden;
+  }
+
+  img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .heading{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 30vh;
+    font-size: 2.5vw;
+    color: white;
+    font-family: "Montserrat",Cambria;
+    font-style: italic;
+  }
+  
+  .conImg{
+    width: 80px;
+    height: 80px;
+    align-items: center;
+  }
+
+  .location{
+    left: 40vh;
+    text-align: center;
+    position: absolute;
+  }
+
+  .email{
+    text-align: center;
+    right: 40vh;
+    position: absolute;
+  }
+
+  .contacts{
+    padding-top: 16vh;
+  }
