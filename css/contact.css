@@ -93,3 +93,34 @@ html,body{
   .contacts{
     padding-top: 16vh;
   }
+
+  
+.footer{
+  background-color: black;
+  color: white;
+  padding: 32px 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+.f{
+  width: 300px;
+}
+.f>h1{
+  font-size: 18px;
+  color: #B6B6B7;
+}
+.f>p{
+  font-weight: 100;
+  color:#757575;
+}
+.s{
+  width: 200px;
+}
+.s>h1{
+  font-size: 18px;
+  color: #B6B6B7;
+}
+.s>p{
+  font-weight: 100;
+  color:#757575;
+}
