@@ -51,8 +51,8 @@ html,body{
 
   .header{
     width: 100%;
-    height: 100vh;
-    object-fit: fill;
+    height: 60vh;
+    object-fit: cover;
     overflow: hidden;
   }
 
@@ -65,7 +65,7 @@ html,body{
     position: absolute;
     width: 100%;
     text-align: center;
-    top: 30vh;
+    top: 40vh;
     font-size: 2.5vw;
     color: white;
     font-family: "Montserrat",Cambria;
@@ -81,17 +81,21 @@ html,body{
   .location{
     left: 40vh;
     text-align: center;
-    position: absolute;
+
   }
 
   .email{
     text-align: center;
     right: 40vh;
-    position: absolute;
+
   }
 
   .contacts{
-    padding-top: 16vh;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20vw;
+height: 40vh;
   }
 
   
