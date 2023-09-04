@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .navigation {
+    padding: 32px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    background-color: black;
+    opacity: 70%; 
+  }
+  
+  .contents {
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+    cursor: pointer;
+    color: white;
+  }
+
+  .footer{
+    background-color: black;
+    color: white;
+    padding: 32px 10vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .f{
+    width: 300px;
+  }
+  .f>h1{
+    font-size: 18px;
+    color: #B6B6B7;
+  }
+  .f>p{
+    font-weight: 100;
+    color:#757575;
+  }
+  .s{
+    width: 200px;
+  }
+  .s>h1{
+    font-size: 18px;
+    color: #B6B6B7;
+  }
+  .s>p{
+    font-weight: 100;
+    color:#757575;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .logo {
+    width: 200px;
+    height: auto;
+  }
+
+.main{
+  display: flex;
+  padding: 32px 10vw;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+  img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+
+  .information{
+    background-color: gainsboro;
+    padding: 32px;
+    border-radius:16px;
+  }
+  .information>h1{
+    font-size: 24px;
+  }
+
+
+  .pdf{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+  }
