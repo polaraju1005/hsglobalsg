@@ -204,3 +204,23 @@ a {
   font-weight: 100;
   color:#757575;
 }
+
+.acknowledgements{
+  padding: 0 10vw;
+  background-color: black;
+}
+.underline{
+  width: 100%;
+  height:2px;
+  background-color: #B6B6B7;
+}
+.final{
+  color: #B6B6B7;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0;
+}
+
+.dev:hover{
+  color: royalblue;
+}
