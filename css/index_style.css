@@ -224,3 +224,9 @@ a {
 .dev:hover{
   color: royalblue;
 }
+
+.dev{
+  font-family: "Monteserrat",Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: normal;
+  font-size: 20px;
+}
